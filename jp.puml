@@ -1,0 +1,102 @@
+@startuml
+
+Project starts 2024-02-01
+[TotalDay] lasts 15 days
+[JR_PASS] lasts 7 days
+[JR_PASS] starts at 2024-02-06
+'  名古屋
+[名古屋] lasts 2 days
+note bottom
+    DAY1 台灣飛過來
+
+end note
+[JR 特急飛驒3号(2h15min) $ 6340 ] happens at [名古屋]'s end
+'  高山
+[高山] starts at [名古屋]'s end
+[高山] lasts 2 days
+note bottom
+    暫定白川合掌村，如沒有要去，可多留名古屋
+end note
+[JR 特急飛驒3号(1h29min) $ 3620 ] happens at [高山]'s end
+'  冨山
+[冨山] starts at [高山]'s end
+[冨山] lasts 1 days
+note bottom
+    TBD
+end note
+[JR北陸新幹線(46min) $ 7240(單趟)] happens at [冨山]'s end
+'  長野
+[長野] starts at [冨山]'s end
+[長野] lasts 2 days
+note bottom
+    TBD
+end note
+[JR北陸新幹線(19min) $ 4160(單趟)] happens at [冨山]'s end
+'  金沢
+' [金沢] starts at [長野]'s end
+[金沢] starts at [冨山]'s end
+[金沢] lasts 2 days
+note bottom
+    TBD
+end note
+[JR北陸本線 特急(2hr8min) $7220] happens at [金沢]'s end
+'  京都
+[京都] starts at [金沢]'s end
+[京都] lasts 2 days
+note bottom
+    TBD
+end note
+[88888] happens at [京都]'s end
+'  大阪
+[大阪] starts at [京都]'s end
+[大阪] lasts 3 days
+note bottom
+    TBD
+end note
+[9999] happens at [大阪]'s end
+'  神戸
+[神戸] starts at [大阪]'s end
+[神戸] lasts 2 days
+note bottom
+    TBD
+end note
+[00000] happens at [大阪]'s end
+'  和歌山
+[和歌山] starts at [神戸]'s end
+[和歌山] lasts 1 days
+note bottom
+    飛回台灣,
+    最後一天應該是沒機會玩
+end note
+
+
+' 金澤城
+' 金澤美食蟹
+' 兼六園
+' 金澤近江町市場
+
+' 長野善光寺 有點遠
+' 長野善光寺廟前街
+' ' 地獄谷野猿公苑
+' 歴史の宿金具屋
+
+
+' 雪場玩雪 長野滑雪場
+
+' [軽井沢]
+
+' 冬季的淺間山
+' 1h30min $9900
+' 輕井澤王子購物廣場 near station
+
+
+' 白馬JR 1天
+
+' 12天玩
+' 六天北部
+' 2天中部
+' 四天西部
+
+' 群馬?
+
+@enduml
